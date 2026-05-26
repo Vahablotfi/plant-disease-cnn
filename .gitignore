@@ -9,6 +9,7 @@ __pycache__/
 
 # Local secrets
 kaggle.json
+.env
 *.env
 
 # Dataset files are large and must not be committed to GitHub
@@ -18,9 +19,17 @@ data/*
 # Trained model files are large and will be added later only if needed
 models/*
 !models/.gitkeep
+*.keras
+*.h5
 
 # Generated reports and figures
 reports/
 
 # macOS files
 .DS_Store
+
+# VS Code
+.vscode/
+
+# TensorFlow / training logs
+logs/

@@ -1,0 +1,26 @@
+# Python environment and cache files
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter / notebook temporary files
+.ipynb_checkpoints/
+
+# Local secrets
+kaggle.json
+*.env
+
+# Dataset files are large and must not be committed to GitHub
+data/*
+!data/.gitkeep
+
+# Trained model files are large and will be added later only if needed
+models/*
+!models/.gitkeep
+
+# Generated reports and figures
+reports/
+
+# macOS files
+.DS_Store
